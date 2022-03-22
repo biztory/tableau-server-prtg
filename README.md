@@ -58,7 +58,7 @@ The script will take care of authentication, as well as getting and returning th
 * Configuration:
   * Python Script: [prtg_tsm_api_status.py](./prtg_tsm_api_status.py), on the PRTG server as documented.
   * Device credentials: Transmit Linux credentials
-  * Additional parameters: tableau_server_url=penguin.biztory.com  or tableau_server_url=s-olaf-cbttbl.cbis.olaf 
+  * Additional parameters: `tableau_server_url=penguin.biztory.com`
 
 ### Sensor: Tableau Application Data (PostgreSQL)
 This sensor queries Tableau Server's own internal database (sometimes referred to as the "workgroup" or "repository") to surface information about the application's tasks and properties. For example, Tableau Server periodically performs a task that consists of connecting to a database to refresh a report's data; if this task is unsuccessful, we can determine that by querying the database.
